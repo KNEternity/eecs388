@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int intPter(){
+    
     int temp; 
     int* temp_ptr = &temp; 
 

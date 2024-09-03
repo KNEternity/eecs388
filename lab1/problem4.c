@@ -1,10 +1,13 @@
 #include <stdio.h>
 int hexToBinary(){
+    //init var
     char hex[4];
 
+    //get user input, expecting valid input
     printf("Type hex: ");
     scanf("%s", hex);
 
+    //HUGE if block, hard coding hex to binary
     for (int i = 0; i < 4; i++){
         if (hex[i] == '0'){
             printf("0000");
@@ -59,5 +62,6 @@ int hexToBinary(){
     return 0;
 }
 int main(){
+    hexToBinary();
     return 0; 
 }
